@@ -27,8 +27,6 @@ Our goal is to build an app that finds recipes for users to cook based on the re
 - CSS Basics   https://www.w3schools.com/css/css_intro.asp
 - Front-end Development
   - JavaScript  https://www.w3schools.com/js/
-    - Vue framework
-    - Angular framework
     - React framework
   - Python
     - flask 
