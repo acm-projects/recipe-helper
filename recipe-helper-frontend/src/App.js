@@ -8,7 +8,9 @@ class App extends Component {
 render() {
 return (
 <div className="App">
+<header className = "search-bar">
    <input type="text" placeholder="Search.."></input>
+   </header>
    <header className="App-header">
       <i class="fas fa-bacon"></i>
       <img src={logo} className="App-logo" alt="logo" />
