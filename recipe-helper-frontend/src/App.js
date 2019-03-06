@@ -13,7 +13,7 @@ return (
       <i class="fas fa-bacon"></i>
       <img src={logo} className="App-logo" alt="logo" />
       <p>
-         Recipe Helper WIP
+         Cheffit WIP
       </p>
       <a
          className="App-link"
