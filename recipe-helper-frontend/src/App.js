@@ -8,14 +8,29 @@ class App extends Component {
 render() {
 return (
 <div className="App">
-<header className = "search-bar">
-   <input type="text" placeholder="Search.."></input>
-   </header>
+
+
+   <div id="cover">
+      <form method="get" action="">
+         <div class="tb">
+            <div class="td"><input type="text" placeholder="Search" required /></div>
+            <div class="td" id="s-cover">
+            <button type="submit">
+               <div id="s-circle"></div>
+               <span></span>
+            </button>
+            </div>
+         </div>
+      </form>
+   </div>
+   
+
+
    <header className="App-header">
       <i class="fas fa-bacon"></i>
       <img src={logo} className="App-logo" alt="logo" />
       <p>
-         Chef it WIP
+         Chef it! WIP
       </p>
       <a
          className="App-link"
