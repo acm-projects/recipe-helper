@@ -4,9 +4,11 @@
 }
 
 .App-logo {
-  animation: App-logo- infinite 20s linear;
+  position: absolute;
+  transform: scale(0.25);
   height: 40vmin;
-  pointer-events: none;
+  left: -50px;
+  top: -50px;
 }
 
 .App-header {
@@ -23,7 +25,7 @@
 .App-link {
   color: #61dafb;
 }
-
+/* Search Bar Begins */
 *
 {
     outline: none;
@@ -197,7 +199,7 @@ button span:before, button span:after
     background-color: #fff;
 }
 
-
+/* Search bar Ends */
 
 
 
